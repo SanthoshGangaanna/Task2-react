@@ -1,0 +1,23 @@
+
+
+h1{
+    color:red;
+    text-align: center;
+    padding: 25px;
+}
+
+.dataList{
+    background-color: grey;
+    color:black;
+    width:90%;
+    margin:auto;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.CandidateInfo{
+    color:blue;
+    padding: 10px;
+}
+    

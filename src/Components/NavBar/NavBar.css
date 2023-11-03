@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: medium;
+}
+
+.NavBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.Menuflex{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+    font-weight: bold;
+    padding: 25px;
+}
+
+.LogoutButton{
+    color: white;
+    background-color: indigo;
+    width: 75px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+}

@@ -1,0 +1,159 @@
+.layout{
+    padding-top: 20px;
+}
+.OuterContainer{
+    width: 90%;
+    border: 2px solid white;
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+sup{
+    color:red;
+}
+
+.subhead{
+    color:indigo;
+    margin: 40px 40px 20px 60px;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #d3d3d3;
+    padding: 5px 10px 0px 10px;
+}
+.Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:30px;
+    width: 90%;
+    margin: auto;
+}
+
+.FormGrid{
+    position: relative;
+    display: grid;
+    grid-template-columns: 5fr 0.5fr 5fr 0.1fr;
+    grid-template-rows: 1fr 0.1fr;
+    align-items: center;
+}
+
+label,span{
+    font-weight: bolder;
+}
+
+.labellight{
+    font-weight: 500;
+}
+.spanfont{
+    font-weight:100;
+}
+
+input{
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+   
+}
+
+select{
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.DateSpan{ 
+    position: absolute;
+    cursor:pointer;
+    right:30px;
+    bottom: 9px;
+}
+
+input[type="file"]{
+    display: none;
+  }
+
+input[type="file"] + label {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+input[type="file"] + label:hover{
+    cursor: pointer;
+}
+
+textarea{
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.caution{
+    color: red;
+    margin-left: 75px;
+    padding-top: 25px;
+}
+
+.finaluploadbutton{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.finalbutton{
+    border: 2px solid gray;
+    width:100px;
+    height:30px;
+    background-color: indigo;
+    color: white;
+    font-weight: 1000;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.inputDateField {
+    position: relative;
+}
+
+.validationText{
+    color: red;
+    grid-column-start:3 ;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-top: 10px;
+}
+
+.FileText{
+    color: green;
+    grid-column-start:3 ;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-top: 10px;
+}
+.red{
+    text-align: center;
+    color: red;
+    background-color: #ff00002e;
+    border: none;
+}
+
+.green{
+    text-align: center;
+    color: green;
+    background-color:#00ff9742;
+    border: none;
+
+}
